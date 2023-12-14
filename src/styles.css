@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Windsong&family=Dancing+Script:wght@500&family=Give+You+Glory&family=Homemade+Apple&family=Indie+Flower&family=La+Belle+Aurore&family=Nanum+Pen+Script&family=Playball&family=Sacramento&family=Yellowtail&display=swap");
+
+:root {
+  --font-1: "Windsong", cursive;
+  --font-2: "Dancing Script", cursive;
+  --font-3: "Give You Glory", cursive;
+  --font-4: "Homemade Apple", cursive;
+  --font-5: "Indie Flower", cursive;
+  --font-6: "La Belle Aurore", cursive;
+  --font-7: "Nanum Pen Script", cursive;
+  --font-8: "Playball", cursive;
+  --font-9: "Sacramento", cursive;
+  --font-10: "Yellowtail", cursive;
+  --font-size-1: 1rem;
+  --font-size-2: 1.1rem;
+  --font-size-3: 1rem;
+  --font-size-4: 0.9rem;
+  --font-size-5: 1.2rem;
+  --font-size-6: 1.2rem;
+  --font-size-7: 1.2rem;
+  --font-size-8: 1rem;
+  --font-size-9: 1.3rem;
+  --font-size-10: 1.1rem;
+  --background-1: rgb(247, 158, 158);
+  --background-2: rgb(246, 197, 133);
+  --background-3: rgb(243, 243, 161);
+  --background-4: rgb(158, 238, 247);
+  --background-5: rgb(146, 169, 230);
+  --background-6: rgb(234, 169, 220);
+  --background-7: rgb(135, 186, 177);
+}
+
+html body {
+  background-color: aliceblue;
+}
+
+#quote-box {
+  margin-top: 15vh;
+  width: 18rem;
+  margin-inline: auto;
+  border: 10px;
+  background-color: rgb(244, 233, 219);
+}
+
+#text {
+  font-family: var(--font-1);
+  font-size: var(--fonz-size-1);
+  display: flex;
+}
+
+span {
+  padding-right: 5px;
+  margin-top: -1px;
+}
+
+#author {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: end;
+  font-size: 1.1rem;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid rgb(158, 160, 161);
+}
+
+#twitter-button {
+  padding-top: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#twitter-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btn:hover #twitter-icon {
+  fill: aliceblue;
+}
+
+#new-quote {
+  font-size: 0.7rem;
+}
