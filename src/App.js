@@ -173,7 +173,7 @@ function ChevronIcon() {
 
 function TwitterIcon() {
   return (
-    <Button id="twitter-button" class="btn btn-outline-primary">
+    <Button id="twitter-button" class="custom-button">
       <a id="tweet-quote" href="https://www.twitter.com/intent/tweet">
         <svg
           id="twitter-icon"
@@ -257,10 +257,7 @@ function QuoteBox() {
         </Card.Text>
         <div id="buttons">
           <TwitterIcon />
-          <Button
-            id="new-quote"
-            onClick={handleNewQuote}
-            class="btn btn-outline-primary btn-sm">
+          <Button id="new-quote" onClick={handleNewQuote} class="custom-button">
             New Quote
           </Button>
         </div>
